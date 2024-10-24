@@ -1,0 +1,63 @@
+/* Estilo geral para o contêiner de categorias */
+
+
+.categoriesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+
+}
+
+
+.categoriesContainer h1 {
+  width: 100%; /* Ocupa a largura total */
+  text-align: center; /* Centralizar texto */
+  margin-bottom: 20px; /* Espaço abaixo do título */
+  font-size: 2em; /* Tamanho da fonte do título */
+  color: #333; /* Cor do texto */
+}
+
+.cardsWrapper {
+  display: flex; /* Organiza os cards em linha */
+  flex-wrap: wrap; /* Permite quebra de linha se necessário */
+  justify-content: center; /* Centraliza os cards horizontalmente */
+  gap: 20px; /* Espaço entre os cards */
+}
+
+
+
+
+.categoryCard {
+  background-color: #f0f0f0; /* Cor de fundo dos cartões */
+  border: 1px solid #ccc; /* Borda dos cartões */
+  border-radius: 8px; /* Bordas arredondadas */
+  width: 150px; /* Largura fixa do cartão */
+  height: 100px; /* Altura fixa do cartão */
+  display: flex; /* Usar flexbox para conteúdo centralizado */
+  align-items: center; /* Alinhamento vertical central */
+  justify-content: center; /* Alinhamento horizontal central */
+  margin: 10px; /* Margem entre os cartões */
+  cursor: pointer; /* Mostrar que é clicável */
+  transition: background-color 0.3s; /* Transição suave para efeitos */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+
+}
+
+
+.categoryCard:hover {
+  transform: translateY(-5px); /* Levantar o cartão ao passar o mouse */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Aumentar sombra ao passar o mouse */
+}
+
+
+.cardImage {
+  max-width: 80%; /* Limitar a largura da imagem */
+  max-height: 80%; /* Limitar a altura da imagem */
+  object-fit: cover; /* Cobrir o cartão sem distorcer */
+}
+

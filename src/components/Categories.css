@@ -1,26 +1,10 @@
 /* Estilo geral para o contêiner de categorias */
 
 
-.categoriesContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  background-color: lightblue;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-
-}
 
 
-.categoriesContainer h1 {
-  width: 100%; /* Ocupa a largura total */
-  text-align: center; /* Centralizar texto */
-  margin-bottom: 20px; /* Espaço abaixo do título */
-  font-size: 2em; /* Tamanho da fonte do título */
-  color: #333; /* Cor do texto */
-}
+
+
 
 .cardsWrapper {
   display: flex; /* Organiza os cards em linha */

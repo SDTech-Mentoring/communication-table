@@ -1,6 +1,8 @@
 header {
-  background-color: #4CAF50;
-  padding: 10px;
-  text-align: center;
-  color: white;
+  display: flex;
+  justify-content: center; /* Centraliza o título por padrão */
+  align-items: center; /* Alinha o conteúdo verticalmente */
+  padding: 0 20px;
+  background-color: #f4f4f4;
+  position: relative; /* Necessário para posicionamento absoluto do botão */
 }

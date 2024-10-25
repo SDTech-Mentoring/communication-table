@@ -2,16 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none
 }
 
 p {
   font-family: Arial, sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   width: 100%;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 20px 0;
   font-size: 2em;
 }
 
@@ -24,43 +26,52 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
+  /* Adiciona espaçamento entre os cards */
+
+
 }
 
 
 .backButton {
-  background-color: #007BFF;
-  color: white;
-  padding: 10px 20px;
+  /* background-color: #007bff; */
+  color: black;
   border: none;
-  border-radius: 5px;
-  font-size: 1rem;
+  padding: 15px 30px;
+  font-size: 80px;
   cursor: pointer;
-  margin-top: 20px;
+  border-radius: 5px;
+  position: absolute;
+  left: 20px; /* Move o botão para o lado direito */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold; /* Deixa o símbolo "<" mais forte */
 }
-
 
 .backButton:hover {
   background-color: #0056b3;
 }
 
 .categoriesContainer {
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
   margin: 0;
   padding: 0;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
+
 }
 
-.containerButton{
+.containerButton {
 
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
-

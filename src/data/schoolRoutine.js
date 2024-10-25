@@ -124,7 +124,7 @@ export const RotinaData=[
     {
       id:24,
       imgSrc:(path('banheiroParaDeficientes')),
-      text:"BANHEIRO PARA DEFICIENTES"
+      text:"BANHEIRO DEFICIENTES"
     },
     {
       id:25,

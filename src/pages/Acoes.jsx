@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { acoesData} from "../data/Action";
 
 
@@ -13,9 +13,7 @@ function Acoes(){
           <Card key={card.id} imgSrc={card.imgSrc} text={card.text} />
         ))}
       </div>
-      <Link to="/" className="containerButton">
-        <button className="backButton">Voltar para Categorias</button>
-      </Link>
+
     </div>
   );
 }

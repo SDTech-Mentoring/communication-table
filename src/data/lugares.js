@@ -108,6 +108,23 @@ export const lugaresData = [
     text: "hospital",
   },
 
+
+  {
+    id:19,
+    imgSrc:path('restaurante'),
+    text:"restaurante",
+    },
+    {
+      id:21,
+      imgSrc:path('padaria'),
+      text:"padaria",
+      },
+      {
+        id:22,
+        imgSrc:path('shopping'),
+        text:"shopping",
+        },
+
   /*{
             id:,
             imgSrc:path(''),

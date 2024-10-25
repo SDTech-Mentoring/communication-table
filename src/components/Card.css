@@ -33,7 +33,7 @@
   margin-top: 10px;
   font-size: 1.2em;
   color: #333;
-  height: 40px; /* Altura fixa para o texto */
+
   overflow: hidden; /* Esconde texto excedente */
   text-overflow: ellipsis; /* Adiciona "..." ao texto longo */
   white-space: normal; /* Impede quebra de linha */

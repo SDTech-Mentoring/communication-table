@@ -157,7 +157,7 @@ export const SobremesaData = [
   {
     id: 26,
     imgSrc: path("tortaMaca"),
-    text: "TORTA DE MAÇA",
+    text: "TORTA DE MAÇÃ",
   },
 
   {

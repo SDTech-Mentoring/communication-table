@@ -44,36 +44,47 @@
 
 /* Estilo para dispositivos móveis (tela até 600px de largura) */
 @media (max-width: 600px) {
-    .card {
-        width: 140px;
-        height: 180px;
-    }
+  .cardsContainer {
+      flex-direction: column; /* Altera para coluna em telas muito pequenas */
+      align-items: center;    /* Centraliza os cards */
+  }
 
-    .card p {
-        font-size: 1em;
-    }
+  .card {
+      width: 140px;
+      height: 180px;
+  }
+
+  .card p {
+      font-size: 1em;
+  }
 }
 
 /* Estilo para tablets (entre 600px e 1024px de largura) */
 @media (min-width: 600px) and (max-width: 1024px) {
-    .card {
-        width: 160px;
-        height: 200px;
-    }
+  .cardsContainer {
+      flex-direction: row; /* Mantém na horizontal */
+      flex-wrap: wrap;     /* Permite quebra de linha */
+      justify-content: center; /* Centraliza os cards */
+  }
 
-    .card p {
-        font-size: 1.1em;
-    }
+  .card {
+      width: 160px;
+      height: 200px;
+  }
+
+  .card p {
+      font-size: 1.1em;
+  }
 }
 
 /* Estilo para desktops (largura acima de 1024px) */
 @media (min-width: 1024px) {
-    .card {
-        width: 180px; /* Mantém o tamanho original para desktop */
-        height: 220px;
-    }
+  .card {
+      width: 180px; /* Mantém o tamanho original para desktop */
+      height: 220px;
+  }
 
-    .card p {
-        font-size: 1.2em;
-    }
+  .card p {
+      font-size: 1.2em;
+  }
 }

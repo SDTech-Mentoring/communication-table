@@ -10,7 +10,14 @@ p {
 
 }
 
-h1,
+h1 {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2em;
+  margin-left: 50px; /* ajuste conforme necessário */
+
+}
 h2 {
   width: 100%;
   text-align: center;
@@ -43,7 +50,8 @@ body {
   cursor: pointer;
   border-radius: 5px;
   position: absolute;
-  left: 6px; /* Move o botão para o lado direito */
+  left: 10px; /* Move o botão para o lado direito */
+  top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;

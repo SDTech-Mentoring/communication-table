@@ -31,11 +31,10 @@ body {
 }
 
 .cardsContainer {
-  display: flex;            /* Ativa o Flexbox */
-  flex-direction: row;     /* Mantém os cards na horizontal por padrão */
-  flex-wrap: wrap;         /* Permite quebra de linha quando não há espaço */
-  overflow-x: auto;        /* Permite a rolagem horizontal se os cards não couberem */
-  padding: 10px;           /* Adiciona algum espaço ao redor dos cards */
+  display: flex; /* Habilita flexbox */
+  flex-wrap: wrap; /* Permite que os cards se movam para a próxima linha, se necessário */
+  justify-content: center; /* Centraliza os cards horizontalmente */
+  align-items: flex-start; /* Alinha os itens ao topo */
 }
 
 

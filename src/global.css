@@ -21,7 +21,7 @@ h1 {
 h2 {
   width: 100%;
   text-align: center;
-  margin: 20px 0;
+  margin: 50px 0;
   font-size: 2em;
 }
 
@@ -31,29 +31,30 @@ body {
 }
 
 .cardsContainer {
-  display: flex; /* Habilita flexbox */
+  display: flex;
   flex-wrap: wrap; /* Permite que os cards se movam para a próxima linha */
-  justify-content: center; /* Centraliza os cards horizontalmente */
-  align-items: flex-start; /* Alinha os itens ao topo */
+  justify-content: center; /* Centraliza os cards */
+  gap: 15px; /* Espaçamento entre os cards */
   margin: 0 auto; /* Centraliza o contêiner na tela */
-  padding: 10px; /* Adiciona um espaço ao redor do contêiner */
+  padding: 10px; /* Espaço ao redor do contêiner */
+  max-width: 100%; /* Certifique-se de que o contêiner não exceda a largura da tela */
 }
 
 .backButton {
-  /* background-color: #007bff; */
   color: black;
   border: none;
-  padding: 15px 30px;
-  font-size: 30px;
+  padding: 8px 15px; /* Reduzido para dar mais espaço */
+  font-size: 20px;
   cursor: pointer;
   border-radius: 5px;
   position: absolute;
-  left: 10px; /* Move o botão para o lado direito */
-  top:20;
+  left: 20px; /* Mantenha a posição à esquerda */
+  top: 30px; /* Aumentar a distância do topo */
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold; /* Deixa o símbolo "<" mais forte */
+  font-weight: bold;
+  z-index: 1000;
 }
 
 .backButton:hover {

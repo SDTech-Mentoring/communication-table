@@ -43,7 +43,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
   position: absolute;
-  left: 20px; /* Move o botão para o lado direito */
+  left: 6px; /* Move o botão para o lado direito */
   display: flex;
   align-items: center;
   justify-content: center;

@@ -32,11 +32,12 @@ body {
 
 .cardsContainer {
   display: flex; /* Habilita flexbox */
-  flex-wrap: wrap; /* Permite que os cards se movam para a próxima linha, se necessário */
+  flex-wrap: wrap; /* Permite que os cards se movam para a próxima linha */
   justify-content: center; /* Centraliza os cards horizontalmente */
   align-items: flex-start; /* Alinha os itens ao topo */
+  margin: 0 auto; /* Centraliza o contêiner na tela */
+  padding: 10px; /* Adiciona um espaço ao redor do contêiner */
 }
-
 
 .backButton {
   /* background-color: #007bff; */

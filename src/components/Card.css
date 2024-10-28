@@ -1,4 +1,6 @@
 .card {
+  box-sizing: border-box; /* Inclui padding e border no tamanho total */
+  flex: 0 1 180px; /* Permite que os cards cresçam, mas mantenha um tamanho base de 180px */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   border: 2px solid #4CAF50;

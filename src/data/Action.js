@@ -130,5 +130,28 @@ export const acoesData = [
     imgSrc: require("../images/actions/chamar.png"),
     text: "CHAMAR",
   },
+
+
+  {
+    id: 27,
+    imgSrc: require("../images/actions/quero.png"),
+    text: "QUERO",
+  },
+
+  {
+    id: 28,
+    imgSrc: require("../images/actions/naoquero.png"),
+    text: "NÃO QUERO",
+  },
+  {
+    id: 29,
+    imgSrc: require("../images/actions/queromais.png"),
+    text: "QUERO MAIS",
+  },
+  {
+    id: 30,
+    imgSrc: require("../images/actions/pegar.png"),
+    text: "PEGAR",
+  },
 ];
 //  Adicione mais cards conforme necessário//

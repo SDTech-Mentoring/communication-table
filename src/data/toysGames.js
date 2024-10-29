@@ -33,7 +33,7 @@ export const toysGameData = [
   {
     id:5 ,
     imgSrc: path("balao"),
-    text: "balao",
+    text: "balão",
   },
   {
     id: 6,
@@ -154,7 +154,7 @@ export const toysGameData = [
   {
     id:29 ,
     imgSrc: path("jogarTablete"),
-    text: "jogar tablet",
+    text: "jogar no tablet",
   },
   {
     id:30 ,

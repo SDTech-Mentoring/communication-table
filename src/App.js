@@ -12,6 +12,7 @@ import Sobremesa from'./pages/Sobremesa';
 import Lugares from'./pages/Lugares';
 import HouseRoutine from './pages/HouseRoutine';
 import ToysGames from'./pages/ToysGames';
+import Pronoun from'./pages/Pronoun';
 import './global.css';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path="/lugares" element={<Lugares/>}/>
           <Route path="/casa" element={<HouseRoutine/>}/>
           <Route path="/jogosebrinquedos" element={<ToysGames/>}/>
+          <Route path="/eu" element={<Pronoun/>}/>
         </Routes>
         <Footer />
       </div>

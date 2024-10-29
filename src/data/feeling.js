@@ -8,13 +8,13 @@ export const sentimentosData = [
   {
     id:2,
     imgSrc: require('../images/feelings/terfrio.png'),
-    text:"TER FRIO",
+    text:"FRIO",
   },
 
   {
     id:3,
     imgSrc: require('../images/feelings/terCalor.png'),
-    text:"TER CALOR",
+    text:"CALOR",
   },
 
   {

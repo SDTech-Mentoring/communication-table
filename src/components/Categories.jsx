@@ -72,6 +72,15 @@ function Categories() {
           />
         </Link>
 
+        <Link to="/eu">
+          {/*Aqui está o Card Rotina da Casa*/}
+          <Card
+            imgSrc={require("../images/category/eu.png")}
+            text="EU"
+          />
+        </Link>
+
+
 
 
         {/* <li> */}

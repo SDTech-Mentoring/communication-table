@@ -71,8 +71,8 @@ export const acoesData = [
   },
   {
     id: 15,
-    imgSrc: require("../images/actions/pintarComOsDedos.png"),
-    text: "PINTAR COM OS DEDOS",
+    imgSrc: require("../images/actions/pintarMao.png"),
+    text: "PINTAR COM AS MÃOS",
   },
   {
     id: 16,
@@ -155,3 +155,4 @@ export const acoesData = [
   },
 ];
 //  Adicione mais cards conforme necessário//
+export default acoesData;

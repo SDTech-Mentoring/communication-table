@@ -1,21 +1,31 @@
-export const sentimentosData = [
+const sentimentosData = [
+
+
   {
     id:1,
-    imgSrc: require('../images/feelings/precisodeAjuda.png'),
-    text:"PRECISO DE AJUDA",
+    imgSrc: require('../images/feelings/precisoAjuda.png'),
+    text:"AJUDA",
   },
+
 
   {
     id:2,
-    imgSrc: require('../images/feelings/terfrio.png'),
+    imgSrc: require('../images/feelings/frio.png'),
     text:"FRIO",
   },
 
+
+
   {
     id:3,
-    imgSrc: require('../images/feelings/terCalor.png'),
+    imgSrc: require('../images/feelings/calor2.png'),
     text:"CALOR",
   },
+
+
+
+
+
 
   {
     id:4,
@@ -29,16 +39,19 @@ export const sentimentosData = [
     text:"TRISTE",
   },
 
+
   {
     id:6,
-    imgSrc: require('../images/feelings/vergonha.png'),
-    text:"ENVERGONHADO",
+    imgSrc: require('../images/feelings/envergonhado.png'),
+    text:"VERGONHA",
   },
   {
     id:7,
     imgSrc: require('../images/feelings/nervoso.png'),
     text:"NERVOSO",
   },
+
+
 
   {
     id:8,
@@ -60,20 +73,24 @@ export const sentimentosData = [
     imgSrc: require('../images/feelings/cansado.png'),
     text:"CANSADO",
   },
+
   {
     id:12,
-    imgSrc: require('../images/feelings/chorar.png'),
+    imgSrc: require('../images/feelings/chorando.png'),
     text:"CHORAR",
   },
-  {
+
+   {
     id:13,
-    imgSrc: require('../images/feelings/contente.png'),
-    text:"CONTENTE",
-  },
+     imgSrc: require('../images/feelings/contente(2).png'),
+     text:"CONTENTE",
+   },
+
   {
     id:14,
-    imgSrc: require('../images/feelings/surpreendido.png'),
-    text:"SURPREENDIDO",
+    imgSrc: require('../images/feelings/surpreso.png'),
+    text:"SURPRESO",
   },
   // Adicione mais cards de sentimentos conforme necessário
 ];
+export default sentimentosData; // Exportação padrão

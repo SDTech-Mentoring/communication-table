@@ -57,7 +57,9 @@
   }
 
   .card p {
-      font-size: 1em;
+      font-size: 0.9em; /* Reduz o tamanho da fonte para caber melhor */
+      margin-top: 5px; /* Sobe um pouco o texto */
+      line-height: 1.1em; /* Ajusta o espaçamento entre linhas */
   }
 }
 

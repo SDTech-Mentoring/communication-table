@@ -33,36 +33,12 @@ export const pronounData = [
 
   {
     id: 6,
-    imgSrc: path("voce"),
+    imgSrc: path("voces"),
     text: "vocês",
   },
 
 
-  {
-    id: 7,
-    imgSrc: path("aquele"),
-    text: "aquele",
-  },
-  {
-    id: 8,
-    imgSrc: path("isso"),
-    text: "isso",
-  },
-  {
-    id: 9,
-    imgSrc: path("isto"),
-    text: "isto",
-  },
-  {
-    id: 10,
-    imgSrc: path("teu"),
-    text: "teu",
-  },
-  {
-    id: 11,
-    imgSrc: path("meu"),
-    text: "meu",
-  },
+
 
   /*{
     id:,

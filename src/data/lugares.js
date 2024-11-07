@@ -124,6 +124,11 @@ export const lugaresData = [
         imgSrc:path('shopping'),
         text:"shopping",
         },
+        {
+          id:23,
+          imgSrc:path('zoologico'),
+          text:"zoológico",
+          },
 
   /*{
             id:,

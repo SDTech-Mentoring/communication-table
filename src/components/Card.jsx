@@ -18,6 +18,5 @@ function Card({ imgSrc, text }) {
       <p>{text}</p> {/* Exibe o texto */}
     </div>
   );
-}
-
-export default Card; // Exporta o componente para ser usado em outros lugares
+ }
+ export default Card;

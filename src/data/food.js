@@ -4,6 +4,7 @@ export const alimentosData=[
     imgSrc:require('../images/food/arroz.png'),
     text:"ARROZ",
   },
+
   {
     id:2,
     imgSrc:require('../images/food/feijao.png'),
@@ -17,12 +18,12 @@ export const alimentosData=[
   {
     id:4,
     imgSrc:require('../images/food/macarrao.png'),
-    text:"MACARRÃO",
+    text:"MACARRÃO NA MANTEIGA",
   },
   {
     id:5,
-    imgSrc:require('../images/food/macarraoSemMolho.png'),
-    text:"MACARRÃO NA MANTEIGA",
+    imgSrc:require('../images/food/macarraoMolho.png'),
+    text:"MACARRÃO COM MOLHO",
   },
 
 
@@ -35,6 +36,11 @@ export const alimentosData=[
     id:7,
     imgSrc:require('../images/food/salsicha.png'),
     text:"SALSICHA",
+  },
+  {
+    id:7,
+    imgSrc:require('../images/food/hotDog.png'),
+    text:"HOT DOG",
   },
   {
     id:8,
@@ -121,6 +127,11 @@ export const alimentosData=[
     id:24,
     imgSrc:require('../images/food/hamburquerSimples.png'),
     text:"HAMBURGUER SIMPLES",
+  },
+  {
+    id:24,
+    imgSrc:require('../images/food/pizza.png'),
+    text:"PIZZA",
   },
 
   {

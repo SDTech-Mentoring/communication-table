@@ -8,6 +8,16 @@ function Categories() {
     <div className="categoriesContainer">
       <h1>Categorias</h1>
       <ul className="cardsContainer">
+
+      <Link to="/eu">
+          {/*Aqui está o Card Rotina da Casa*/}
+          <Card
+            imgSrc={require("../images/category/eu.png")}
+            text="EU"
+          />
+        </Link>
+
+
         <Link to="/sentimentos">
           {/* Aqui está o Card  Sentimentos */}
           <Card
@@ -72,13 +82,7 @@ function Categories() {
           />
         </Link>
 
-        <Link to="/eu">
-          {/*Aqui está o Card Rotina da Casa*/}
-          <Card
-            imgSrc={require("../images/category/eu.png")}
-            text="EU"
-          />
-        </Link>
+
 
 
 

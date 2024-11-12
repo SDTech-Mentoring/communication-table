@@ -13,9 +13,9 @@ export const HouseRoutineData = [
     text: "acordar",
   },
   {
-    id: 2,
-    imgSrc: path("almoco"),
-    text: "almoço",
+    id: 1,
+    imgSrc: path("cafeManha"),
+    text: "café da manhã",
   },
   {
     id: 3,
@@ -23,17 +23,25 @@ export const HouseRoutineData = [
     text: "brincar",
   },
   {
-    id: 4,
-    imgSrc: path("dormir"),
-    text: "dormir",
-  }, {
+    id: 2,
+    imgSrc: path("licaoCasa"),
+    text: "lição de casa",
+  },
+  {
+    id: 2,
+    imgSrc: path("almoco"),
+    text: "almoço",
+  },
+
+
+  {
     id: 5,
     imgSrc: path("escovarDentes"),
     text: "escovar dentes",
   }, {
     id: 6,
-    imgSrc: path("estudar"),
-    text: "estudar",
+    imgSrc: path("leitura"),
+    text: "leitura",
   },
   {
     id: 7,
@@ -47,19 +55,24 @@ export const HouseRoutineData = [
   },
   {
     id: 9,
-    imgSrc: path("tomarBanho"),
-    text: "tomar banho",
+    imgSrc: path("banho"),
+    text: "banho",
   },
   {
     id: 10,
-    imgSrc: path("tomarLeite"),
-    text: "tomar leite",
+    imgSrc: path("lanche"),
+    text: "lanche",
   },
 
   {
     id:11,
     imgSrc: path("verTv"),
     text: "ver tv",
+  },
+  {
+    id:11,
+    imgSrc: path("animais"),
+    text: "animais ",
   },
 
  {
@@ -77,6 +90,16 @@ export const HouseRoutineData = [
     id: 14,
     imgSrc: path("irMedico"),
     text: "ir ao médico",
+  },
+  {
+    id: 14,
+    imgSrc: path("voltaEscola"),
+    text: "volta da escola",
+  },
+  {
+    id: 4,
+    imgSrc: path("dormir"),
+    text: "dormir",
   },
   /*{
     id: 8,

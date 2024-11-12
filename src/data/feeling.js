@@ -77,7 +77,7 @@ const sentimentosData = [
   {
     id:12,
     imgSrc: require('../images/feelings/chorando.png'),
-    text:"CHORAR",
+    text:"CHORO",
   },
 
    {

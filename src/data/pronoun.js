@@ -11,6 +11,11 @@ export const pronounData = [
     text: "eu",
   },
   {
+    id: 1,
+    imgSrc: path("eu(2)"),
+    text: "eu",
+  },
+  {
     id: 2,
     imgSrc: path("ela"),
     text: "ela",

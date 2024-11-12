@@ -7,7 +7,7 @@ export const toysGameData = [
   {
     id: 1,
     imgSrc: path("pularCorda"),
-    text: "PULAR CORDA",
+    text: "PULA CORDA",
   },
 
   {
@@ -140,17 +140,17 @@ export const toysGameData = [
   {
     id:27 ,
     imgSrc: path("jogarCelular"),
-    text: "jogar no celular",
+    text: "jogo no celular",
   },
   {
     id:28 ,
     imgSrc: path("jogarComputador"),
-    text: "jogar no computador",
+    text: "jogo no computador",
   },
   {
     id:29 ,
     imgSrc: path("jogarTablete"),
-    text: "jogar no tablet",
+    text: "jogo no tablet",
   },
   {
     id:30 ,
@@ -201,7 +201,7 @@ export const toysGameData = [
   {
     id:38 ,
     imgSrc: path("guardarBrinquedos"),
-    text: "guardar brinquedos",
+    text: "baú de brinquedos",
   },
 
   {
@@ -256,8 +256,8 @@ export const toysGameData = [
   },
   {
     id:49 ,
-    imgSrc: path("piscinaAreia"),
-    text: "piscina de Areia",
+    imgSrc: path("bancoAreia"),
+    text: "banco de Areia",
   },
   {
     id:50 ,
@@ -277,12 +277,12 @@ export const toysGameData = [
   {
     id:53 ,
     imgSrc: path("cozinha"),
-    text: "cozinha de brincar",
+    text: "cozinha",
   },
   {
     id:54 ,
     imgSrc: path("patins"),
-    text: "patins",
+    text: "patim",
   },
   {
     id:55 ,

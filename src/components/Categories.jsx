@@ -8,15 +8,15 @@ function Categories() {
     <div className="categoriesContainer">
       <h1>Categorias</h1>
       <ul className="cardsContainer">
-
-      <Link to="/eu">
+        <Link to="/eu">
           {/*Aqui está o Card Rotina da Casa*/}
-          <Card
-            imgSrc={require("../images/category/eu.png")}
-            text="EU"
-          />
+          <Card imgSrc={require("../images/category/eu.png")} text="EU" />
         </Link>
 
+        <Link to="/eu">
+          {/*Aqui está o Card Rotina da Casa*/}
+          <Card imgSrc={require("../images/category/eu(1).png")} text="EU" />
+        </Link>
 
         <Link to="/sentimentos">
           {/* Aqui está o Card  Sentimentos */}
@@ -63,16 +63,13 @@ function Categories() {
           />
         </Link>
 
-
         <Link to="/casa">
           {/*Aqui está o Card Brinquedos e Jogos*/}
           <Card
-            imgSrc={require("../images/category/casa.png")}
+            imgSrc={require("../images/category/rotinasCasa.png")}
             text="ROTINAS DA CASA"
           />
         </Link>
-
-
 
         <Link to="/jogosebrinquedos">
           {/*Aqui está o Card Rotina da Casa*/}
@@ -82,15 +79,9 @@ function Categories() {
           />
         </Link>
 
-
-
-
-
-
         {/* <li> */}
-          {/* <Link to="/perguntas">Perguntas</Link> */}
+        {/* <Link to="/perguntas">Perguntas</Link> */}
         {/* </li> */}
-
       </ul>
 
       {/* <Link to="/main">Voltar para Main Content</Link> */}

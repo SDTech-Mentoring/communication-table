@@ -62,20 +62,12 @@ export const alimentosData=[
     imgSrc:require('../images/food/empanadoDeFrango.png'),
     text:"EMPANADO DE FRANGO",
   },
-  {
-    id:12,
-    imgSrc:require('../images/food/empanadodeBoi.png'),
-    text:"EMPANADO DE BOI",
-  },
-  {
-    id:13,
-    imgSrc:require('../images/food/empanadoDePeixe.png'),
-    text:"EMPANADO DE PEIXE",
-  },
+
+
   {
     id:14,
     imgSrc:require('../images/food/sopa.png'),
-    text:"SOPA",
+    text:"SOPA DE LEGUMES",
   },
   {
     id:15,
@@ -85,13 +77,9 @@ export const alimentosData=[
   {
     id:16,
     imgSrc:require('../images/food/sopaDePeixe.png'),
-    text:"SOPA DE PEIXE",
+    text:"CALDO DE PEIXE",
   },
-  {
-    id:17,
-    imgSrc:require('../images/food/sopaDeFrango.png'),
-    text:"SOPA DE FRANGO",
-  },
+
   {
     id:18,
     imgSrc:require('../images/food/sopaDeLetrinhas.png'),

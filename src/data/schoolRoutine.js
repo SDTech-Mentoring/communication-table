@@ -6,36 +6,19 @@ const path = (name) => {
 
 
 export const RotinaData=[
-    {
-    id:1,
-    imgSrc: path('levarEscola'),
-    text:"LEVAR NA ESCOLA"
-    },
-    {
-      id:2,
-      imgSrc:path('buscarNaEscola'),
-      text:"BUSCAR NA ESCOLA"
-    },
+
     {
       id:3,
       imgSrc: path('entrada'),
-      text:"ENTRADA"
+      text:"CHEGADA"
     },
     {
       id:4,
-      imgSrc: path('saida'),
+      imgSrc: path('sairEscola'),
       text:"SAÍDA"
     },
-    {
-      id:5,
-      imgSrc:(path('irParaCasa')),
-      text:"IR PARA CASA"
-    },
-    {
-      id:6,
-      imgSrc:(path('irEscola')),
-      text:"IR PARA ESCOLA"
-    },
+
+
     {
       id:7,
       imgSrc:(path('salaDosProfessores')),
@@ -51,16 +34,7 @@ export const RotinaData=[
       imgSrc:(path('refeitorio')),
       text:"REFEITÓRIO"
     },
-    {
-      id:10,
-      imgSrc:(path('aluno')),
-      text:"ALUNO"
-    },
-     {
-      id:11,
-      imgSrc:(path('aluna')),
-      text:"ALUNA"
-    },
+
     {
       id:12,
       imgSrc:(path('fazerAChamada')),
@@ -94,7 +68,7 @@ export const RotinaData=[
    {
       id:18,
       imgSrc:(path('aulaDeCienciasSociais')),
-      text:"AULA DE CIÊNCIAS SOCIAIS"
+      text:"AULA DE CIÊNCIAS"
     },
     {
       id:19,
@@ -103,7 +77,7 @@ export const RotinaData=[
     },
     {
       id:20,
-      imgSrc:(path('aguaPotavel')),
+      imgSrc:(path('agua')),
       text:"ÁGUA"
     },
      {
@@ -114,12 +88,12 @@ export const RotinaData=[
    {
       id:22,
       imgSrc:(path('carroEscolar')),
-      text:"PERUA ESCOLAR"
+      text:"TRANSPORTE ESCOLAR"
     },
      {
       id:23,
       imgSrc:(path('jogarNoLixo')),
-      text:"JOGAR NO LIXO"
+      text:"LIXO"
     },
     {
       id:24,
@@ -244,6 +218,49 @@ export const RotinaData=[
       imgSrc:(path('amassar')),
       text:"AMASSAR"
     },
+    {
+      id:49,
+      imgSrc:(path('tecnologia')),
+      text:"TECNOLOGIA COMPUTADOR"
+    },
+    {
+      id:50,
+      imgSrc:(path('esporte')),
+      text:"ESPORTE"
+    },
+    {
+      id:51,
+      imgSrc:(path('reuniaoProfessor')),
+      text:"REUNIÃO COM PROFESSOR"
+    },
+    {
+      id:70,
+      imgSrc:(path('biblioteca')),
+      text:"BIBLIOTECA"
+    },
+    {
+      id:52,
+      imgSrc:(path('amigos')),
+      text:"AMIGOS"
+    },
+    {
+      id:53,
+      imgSrc:(path('ajuda')),
+      text:"AJUDA DO PROFESSOR"
+    },
+
+    {
+      id:141,
+      imgSrc:(path('atividadesManuais')),
+      text:"ATIVIDADES MANUAIS"
+    },
+
+    {
+      id:142,
+      imgSrc:(path('aulaLeitura')),
+      text:"AULA DE LEITURA"
+    },
+
 
 
 

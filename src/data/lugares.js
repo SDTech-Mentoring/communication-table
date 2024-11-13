@@ -1,5 +1,3 @@
-
-
 const images = require.context("../images/places", false, /\.png$/);
 
 const path = (name) => {
@@ -13,10 +11,16 @@ export const lugaresData = [
     text: "igreja",
   },
   {
+    id: 3,
+    imgSrc: path("casaCampo"),
+    text: "casa no campo",
+  },
+  {
     id: 2,
     imgSrc: path("chacara"),
     text: "chácara",
   },
+
   {
     id: 3,
     imgSrc: path("cidade"),
@@ -28,12 +32,12 @@ export const lugaresData = [
     imgSrc: path("cinema"),
     text: "cinema",
   },
-
   {
-    id: 5,
-    imgSrc: path("mirante"),
-    text: "mirante",
+    id: 4,
+    imgSrc: path("hospital"),
+    text: "hospital",
   },
+
   {
     id: 6,
     imgSrc: path("montanha"),
@@ -46,26 +50,15 @@ export const lugaresData = [
     text: "museu",
   },
   {
-    id: 8,
-    imgSrc: path("palacioGoverno"),
-    text: "palácio do governo",
+    id: 21,
+    imgSrc: path("padaria"),
+    text: "padaria",
   },
+
   {
     id: 9,
     imgSrc: path("parque"),
     text: "parque",
-  },
-
-  {
-    id: 10,
-    imgSrc: path("piscina"),
-    text: "piscina",
-  },
-
-  {
-    id: 11,
-    imgSrc: path("plantacao"),
-    text: "plantação",
   },
 
   {
@@ -74,61 +67,23 @@ export const lugaresData = [
     text: "praia",
   },
 
-  {
-    id: 13,
-    imgSrc: path("horta"),
-    text: "horta",
-  },
-
-  {
-    id: 14,
-    imgSrc: path("construcao"),
-    text: "construcão",
-  },
-  {
-    id: 15,
-    imgSrc: path("obraGoverno"),
-    text: "obra do governo",
-  },
-  {
-    id: 16,
-    imgSrc: path("oficina"),
-    text: "oficina mecânica",
-  },
-
-  {
-    id: 17,
-    imgSrc: path("escritorio"),
-    text: "escritório",
-  },
-
-  {
-    id: 18,
-    imgSrc: path("hospital"),
-    text: "hospital",
-  },
 
 
   {
-    id:19,
-    imgSrc:path('restaurante'),
-    text:"restaurante",
-    },
-    {
-      id:21,
-      imgSrc:path('padaria'),
-      text:"padaria",
-      },
-      {
-        id:22,
-        imgSrc:path('shopping'),
-        text:"shopping",
-        },
-        {
-          id:23,
-          imgSrc:path('zoologico'),
-          text:"zoológico",
-          },
+    id: 19,
+    imgSrc: path("restaurante"),
+    text: "restaurante",
+  },
+  {
+    id: 22,
+    imgSrc: path("shopping"),
+    text: "shopping",
+  },
+  {
+    id: 23,
+    imgSrc: path("zoologico"),
+    text: "zoológico",
+  },
 
   /*{
             id:,

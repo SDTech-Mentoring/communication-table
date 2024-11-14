@@ -17,8 +17,8 @@ export const SobremesaData = [
 
   {
     id: 3,
-    imgSrc: path("alfajorDoceLeite"),
-    text: "ALFAJOR DOCE DE LEITE",
+    imgSrc: path("doceLeite"),
+    text: "DOCE DE LEITE",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const SobremesaData = [
   {
     id: 5,
     imgSrc: path("bolachasChocolate"),
-    text: "BOLACHAS DE CHOCOLATE",
+    text: "BOLACHA DE CHOCOLATE",
   },
   {
     id: 6,
@@ -47,6 +47,16 @@ export const SobremesaData = [
     id: 8,
     imgSrc: path("bolachasOreo"),
     text: "BOLACHAS OREO",
+  },
+  {
+    id: 8,
+    imgSrc: path("brigadeiro"),
+    text: "BRIGADEIRO",
+  },
+  {
+    id: 8,
+    imgSrc: path("balaCoco"),
+    text: "BALA DE COCO",
   },
 
   {
@@ -93,8 +103,8 @@ export const SobremesaData = [
 
   {
     id: 16,
-    imgSrc: path("caracolCanela"),
-    text: "CARACOL DE CANELA",
+    imgSrc: path("caracolCreme"),
+    text: "CARACOL DE CREME",
   },
 
   {
@@ -138,11 +148,7 @@ export const SobremesaData = [
     imgSrc: path("rosquinha"),
     text: "ROSQUINHA",
   },
-  {
-    id: 23,
-    imgSrc: path("torraoChocolate"),
-    text: "TORRÃO DE CHOCOLATE",
-  },
+
   {
     id: 24,
     imgSrc: path("tortaCreme"),
@@ -160,11 +166,7 @@ export const SobremesaData = [
     text: "TORTA DE MAÇÃ",
   },
 
-  {
-    id: 27,
-    imgSrc: path("tortaQueijo"),
-    text: "TORTA DE QUEIJO",
-  },
+
   {
     id: 28,
     imgSrc: path("tortaChocolate"),

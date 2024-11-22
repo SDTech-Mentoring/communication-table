@@ -7,6 +7,7 @@ import Sentimentos from "./pages/Sentimentos";
 import Acoes from "./pages/Acoes";
 import Alimentos from "./pages/Alimentos";
 import RotinaEscolar from "./pages/RotinaEscolar";
+import MaterialEscolar from "./pages/materialEscolar"; // Importe a página MaterialEscolar
 import Sobremesa from "./pages/Sobremesa";
 import Lugares from "./pages/Lugares";
 import HouseRoutine from "./pages/HouseRoutine";
@@ -30,6 +31,7 @@ function App() {
           <Route path="/casa" element={<HouseRoutine />} />
           <Route path="/jogosebrinquedos" element={<ToysGames />} />
           <Route path="/eu" element={<Pronoun />} />
+          <Route path="/materialEscolar" element={<MaterialEscolar />} /> {/* Nova rota */}
         </Routes>
         <Footer />
       </div>

@@ -21,12 +21,12 @@ export const RotinaData=[
 
     {
       id:7,
-      imgSrc:(path('salaDosProfessores')),
+      imgSrc:path('salaDosProfessores'),
       text:"SALA DOS PROFESSORES"
     },
     {
       id:8,
-      imgSrc:(path('salaDeAula')),
+      imgSrc:path('salaDeAula'),
       text:"SALA DE AULA"
     },
    {
@@ -83,7 +83,13 @@ export const RotinaData=[
      {
       id:21,
       imgSrc:(path('materialEscolar')),
-      text:"MATERIAL ESCOLAR"
+      text:"MATERIAL ESCOLAR",
+      rota:'/materialEscolar'
+    },
+    {
+      id:121,
+      imgSrc:(path('rotinaEscolar')),
+      text:"ROTINA ESCOLAR"
     },
    {
       id:22,
@@ -121,11 +127,7 @@ export const RotinaData=[
       imgSrc:(path('guardarMaterial')),
       text:"GUARDAR CADERNOS"
     },
-    {
-      id:29,
-      imgSrc:(path('caderno')),
-      text:"CADERNO"
-    },
+
     {
       id:30,
       imgSrc:(path('lapis')),

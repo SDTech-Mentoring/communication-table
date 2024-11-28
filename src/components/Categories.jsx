@@ -39,11 +39,11 @@ function Categories() {
           />
         </Link>
 
-        <Link to="/rotinaEscolar">
+        <Link to="/escola">
           {/*Aqui está o Card rotinaEscolar*/}
           <Card
-            imgSrc={require("../images/category/rotinaEscolar.png")}
-            text="ROTINA ESCOLAR"
+            imgSrc={require("../images/category/escola.png")}
+            text="ESCOLA"
           />
         </Link>
 

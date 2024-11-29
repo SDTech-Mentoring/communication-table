@@ -1,21 +1,18 @@
-
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
-import { RotinaData } from "../data/schoolRoutine";
+import { RoutineItemData } from "../data/routineItemData";
 
-function RotinaEscolar() {
+function RoutineItemPage() {
   const navigate = useNavigate();
   return (
     <div className="categoriesContainer">
-      <h2>ESCOLA</h2>
+      <h2>ROTINA ESCOLAR</h2>
       <div className="cardsContainer">
-        {RotinaData.map((card) => (
+        {RoutineItemData.map((card) => (
           <div
             key={card.id}
             onClick={() => {
-              // Redireciona apenas se o texto for "MATERIAL ESCOLAR"
               if (card.rota) {
                 navigate(card.rota);
               }
@@ -28,5 +25,4 @@ function RotinaEscolar() {
     </div>
   );
 }
-
-export default RotinaEscolar;
+export default RoutineItemPage;

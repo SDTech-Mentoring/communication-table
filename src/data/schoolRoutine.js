@@ -7,16 +7,16 @@ const path = (name) => {
 
 export const RotinaData=[
 
-    {
-      id:3,
-      imgSrc: path('entrada'),
-      text:"CHEGADA"
-    },
-    {
-      id:4,
-      imgSrc: path('sairEscola'),
-      text:"SAÍDA"
-    },
+    // {
+    //   id:3,
+    //   imgSrc: path('entrada'),
+    //   text:"CHEGADA"
+    // },
+    // {
+    //   id:4,
+    //   imgSrc: path('sairEscola'),
+    //   text:"SAÍDA"
+    // },
 
 
     {
@@ -47,7 +47,7 @@ export const RotinaData=[
     },
     {
       id:14,
-      imgSrc:(path('aulaDeEducacaoFisica')),
+      imgSrc:path('aulaDeEducacaoFisica'),
       text:"AULA EDUCAÇÃO FÍSICA"
     },
     {
@@ -89,7 +89,8 @@ export const RotinaData=[
     {
       id:121,
       imgSrc:(path('rotinaEscolar')),
-      text:"ROTINA ESCOLAR"
+      text:"ROTINA ESCOLAR",
+      rota:'/routine'
     },
    {
       id:22,

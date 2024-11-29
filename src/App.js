@@ -13,6 +13,7 @@ import Lugares from "./pages/Lugares";
 import HouseRoutine from "./pages/HouseRoutine";
 import ToysGames from "./pages/ToysGames";
 import Pronoun from "./pages/Pronoun";
+import RoutineItemPage from "./pages/RoutineItemPage";
 import "./global.css";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/jogosebrinquedos" element={<ToysGames />} />
           <Route path="/eu" element={<Pronoun />} />
           <Route path="/materialEscolar" element={<MaterialEscolar />} /> {/* Nova rota */}
+          <Route path="/routine" element={<RoutineItemPage/>}/>
         </Routes>
         <Footer />
       </div>

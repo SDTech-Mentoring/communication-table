@@ -14,6 +14,9 @@ import HouseRoutine from "./pages/HouseRoutine";
 import ToysGames from "./pages/ToysGames";
 import Pronoun from "./pages/Pronoun";
 import RoutineItemPage from "./pages/RoutineItemPage";
+import EspacoEscola from './pages/EspacoEscola';
+import AtividadeEscolarPage from "./pages/AtividadeEscolarPage";
+
 import "./global.css";
 
 function App() {
@@ -34,6 +37,8 @@ function App() {
           <Route path="/eu" element={<Pronoun />} />
           <Route path="/materialEscolar" element={<MaterialEscolar />} /> {/* Nova rota */}
           <Route path="/routine" element={<RoutineItemPage/>}/>
+          <Route path="/espaco-escola" element={<EspacoEscola />} />
+          <Route path="/atividade-escolar" element={<AtividadeEscolarPage/>}/>
         </Routes>
         <Footer />
       </div>
